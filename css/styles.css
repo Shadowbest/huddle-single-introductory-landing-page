@@ -64,3 +64,43 @@ img {
 .main-header .main-header__logo {
   width: 125px;
 }
+
+/* MAIN CONTENT */
+.main-content {
+  padding: 1.5em 1.2em;
+}
+
+.main-content .main-content__img {
+  margin: 0;
+  padding: .5em;
+}
+
+.main-content .main-content__text {
+  color: #fff;
+  padding: .5em;
+  text-align: center;
+}
+
+.main-content .main-content__text h1 {
+  margin-block-start: 0;
+  text-transform: capitalize;
+  font-size: x-large;
+  text-shadow: 1px 1px 2px #333;
+}
+
+.main-content .main-content__text p {
+  margin-block-start: 0;
+  margin-block-end: 1.7em;
+  padding: 0 1.2em;
+}
+
+.main-content .main-content__text .main-content__btn {
+  display: inline-block;
+  inline-size: 200px;
+  border-radius: 28px;
+  padding: 1em;
+  background-color: #fff;
+  color: var(--primary-color);
+  font-size: 1.3rem;
+  box-shadow: 1px 2px 6px #333;
+}
