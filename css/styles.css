@@ -23,6 +23,13 @@
 
 body {
   margin: 0;
+  font-size: 1.5em;
+  background-color: var(--primary-color);
+  background-image: url('../img/bg-mobile.svg');
+  background-repeat: no-repeat;
+  background-position: top -16px left -25px;
+  /* background-size: cover; */
+  /* min-height: 100vh; */
 }
 
 h1,
@@ -44,6 +51,16 @@ img {
   max-width: 100%;
 }
 
-.wrapper {
+/* .wrapper {
   padding: 2em;
+}/*
+
+/* HEADER */
+.main-header {
+  padding: 1.5rem 1rem;
+  margin-block-end: 3rem;
+}
+
+.main-header .main-header__logo {
+  width: 125px;
 }
