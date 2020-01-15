@@ -62,7 +62,7 @@ img {
 }
 
 .main-header .main-header__logo {
-  width: 125px;
+  inline-size: 125px;
 }
 
 /* MAIN CONTENT */
@@ -131,4 +131,28 @@ img {
 
 .main-footer .social-links__item .fab {
   color: #fff;
+}
+
+/* MEDIA QUERIES */
+
+/* Tablet */
+@media screen and (min-width: 720px) {
+  body {
+    background-image: url('../img/bg-desktop.svg');
+    background-size: contain;
+    background-position: top 10px left 10px;
+  }
+
+  .wrapper {
+    max-width: 1175px;
+    margin: 0;
+  }
+
+  .main-header {
+    padding: 1.8em;
+  }
+
+  .main-header .main-header__logo {
+    inline-size: 150px;
+  }
 }
