@@ -145,6 +145,7 @@ img {
   .wrapper {
     max-width: 1175px;
     margin: 0;
+    padding: 2em;
   }
 
   .main-header {
@@ -158,6 +159,7 @@ img {
   .main-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-block-end: 3em;
   }
 
   .main-content .main-content__img {
@@ -182,5 +184,13 @@ img {
   .main-content .main-content__text .main-content__btn {
     inline-size: 160px;
     text-align: center;
+  }
+
+  .main-footer {
+    padding: 3em;
+  }
+
+  .main-footer .social-links {
+    justify-content: flex-end;
   }
 }
