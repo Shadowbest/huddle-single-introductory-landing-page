@@ -154,7 +154,7 @@ img {
 
   .wrapper {
     max-width: 1175px;
-    margin: 0;
+    margin: 0 auto;
     padding: 2em;
   }
 
@@ -169,6 +169,8 @@ img {
   .main-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 1.5rem;
+    gap: 1.5rem;
     margin-block-end: 3em;
   }
 
@@ -202,5 +204,16 @@ img {
 
   .main-footer .social-media-links {
     justify-content: flex-end;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+  .main-content .main-content__text h1 {
+    font-size: 4.1rem;
+  }
+
+  .main-content .main-content__text p {
+    font-size: 1.8rem;
   }
 }
